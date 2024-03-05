@@ -22,7 +22,7 @@ function init() {
     scene = new THREE.Scene();
 
     new RGBELoader()
-        .setPath( '../main/contents/models/' )
+        .setPath( '../Exhibition/raw/main/contents/models/' )
         .load( 'studio_small_08_1k.hdr', function ( texture ) {
 
             texture.mapping = THREE.EquirectangularReflectionMapping;
