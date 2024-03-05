@@ -4,7 +4,7 @@ body {
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, progress;
 	color: #fff;
 	font-family: "Urbanist", sans-serif;
-	font-optical-sizing: auto;
+	font-size: 50px;
 	font-weight: 800;
 	font-style: normal;
 	overscroll-behavior: none;
