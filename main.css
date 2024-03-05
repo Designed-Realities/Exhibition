@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background-color: #000;
-	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/7c133a0aac1ec827abecd662408875f4055ac7d1/cursor.svg) 5 5, progress;
+	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, progress;
 	color: #fff;
 	font-family: 'Bricolage Grotesque'; /* 세미콜론 추가 */
 	font-size: 30px;
