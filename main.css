@@ -3,7 +3,7 @@ body {
 	background-color: #000;
 	cursor: url('https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png'), auto;
 	color: #fff;
-	font-family: 'Bricolage Grotesque'
+	font-family: 'Bricolage Grotesque'; /* 세미콜론 추가 */
 	font-size: 30px;
 	line-height: 32px;
 	overscroll-behavior: none;
@@ -37,6 +37,7 @@ button {
 	user-select: none;
 	pointer-events: none;
 	z-index: 1; /* TODO Solve this in HTML */
+	font-family: 'Bricolage Grotesque'; /* 추가 */
 }
 
 a, button, input, select {
@@ -60,6 +61,7 @@ a, button, input, select {
 		bottom: 0;
 		left: 0;
 	}
+	font-family: 'Bricolage Grotesque'; /* @media 쿼리 내에도 폰트 속성 추가 */
 }
 
 #overlay {
