@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background-color: #000;
-	cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%231C225E" width="64px" height="64px"><circle cx="12" cy="12" r="10"/></svg>'), auto;
+	cursor: url('https://raw.githubusercontent.com/Designed-Realities/Exhibition/8621425dfeeb1b7198e1a1d86512d7732dbfc67d/cursor.svg'), auto;
 	color: #fff;
 	font-family: 'Bricolage+Grotesque'
 	font-size: 30px;
@@ -47,11 +47,6 @@ a, button, input, select {
 	z-index: 2 !important; /* TODO Solve this in HTML */
 }
 
-@font-face {
-    font-family: 'Futura-Heavy';
-    src:url('./fonts/Futura-Heavy.woff') format('woff'),
-        url('./fonts/Futura-Heavy.woff2') format('woff2');
-	
 @media all and ( max-width: 640px ) {
 	.lil-gui.root { 
 		right: auto;
