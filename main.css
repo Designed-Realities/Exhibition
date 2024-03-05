@@ -38,7 +38,7 @@ button {
 	user-select: none;
 	pointer-events: none;
 	z-index: 1; /* TODO Solve this in HTML */
-	font-family: 'Bricolage Grotesque'; /* 추가 */
+	font-family: 'Urbanist'; /* 추가 */
 }
 
 a, button, input, select {
@@ -62,7 +62,7 @@ a, button, input, select {
 		bottom: 0;
 		left: 0;
 	}
-	font-family: 'Bricolage Grotesque'; /* @media 쿼리 내에도 폰트 속성 추가 */
+	font-family: 'Urbanist'; /* @media 쿼리 내에도 폰트 속성 추가 */
 }
 
 #overlay {
