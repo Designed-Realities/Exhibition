@@ -3,9 +3,10 @@ body {
 	background-color: #000;
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, progress;
 	color: #fff;
-	font-family: 'Bricolage Grotesque'; /* 세미콜론 추가 */
-	font-size: 30px;
-	line-height: 32px;
+	font-family: "Urbanist", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: normal;
 	overscroll-behavior: none;
 }
 
