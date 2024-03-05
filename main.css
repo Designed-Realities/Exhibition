@@ -47,6 +47,10 @@ a, button, input, select {
 	z-index: 2 !important; /* TODO Solve this in HTML */
 }
 
+.cursor-png {
+	cursor: url("https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png"), auto;
+}
+
 @media all and ( max-width: 640px ) {
 	.lil-gui.root { 
 		right: auto;
