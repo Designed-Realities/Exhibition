@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background-color: #000;
-	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, pointer;
+	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor_size.png) 5 5, zoom-in;
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor_loading.png) 5 5, wait;
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor_copy.png) 5 5, crosshair;
