@@ -1,3 +1,4 @@
+/* 기본 스타일 */
 body {
 	margin: 0;
 	background-color: #000;
@@ -19,16 +20,8 @@ a:hover {
 	text-decoration: underline;
 }
 
-
-.lil-gui {
-	z-index: 2 !important; /* TODO Solve this in HTML */
-}
-
-.cursor-png {
-	cursor: url("https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png"), auto;
-}
-
-@media all and ( max-width: 640px ) {
+/* 모바일 화면 스타일 */
+@media all and (max-width: 640px) {
 	.lil-gui.root { 
 		right: auto;
 		top: auto;
@@ -37,4 +30,33 @@ a:hover {
 		bottom: 0;
 		left: 0;
 	}
-	font-family: 'Futura Std'; /* @media 쿼리 내에도 폰트 속성 추가 */
+	font-family: 'Futura Std';
+}
+
+/* 폰트 및 스타일 지정 */
+h1, h2, h3 {
+	font-family: 'Futura Std', sans-serif; /* 원하는 폰트로 변경 */
+	font-weight: 700; /* 원하는 웨이트로 변경 */
+}
+
+h1 {
+	font-size: 48px; /* 원하는 크기로 변경 */
+}
+
+h2 {
+	font-size: 36px; /* 원하는 크기로 변경 */
+}
+
+h3 {
+	font-size: 24px; /* 원하는 크기로 변경 */
+}
+
+a {
+	font-family: 'Futura Std', sans-serif; /* 원하는 폰트로 변경 */
+	font-weight: 500; /* 원하는 웨이트로 변경 */
+	font-size: 18px; /* 원하는 크기로 변경 */
+}
+
+a:hover {
+	text-decoration: underline; /* 호버링 이벤트 지정 */
+}
