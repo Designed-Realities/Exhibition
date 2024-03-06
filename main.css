@@ -60,3 +60,12 @@ a {
 a:hover {
 	text-decoration: underline; /* 호버링 이벤트 지정 */
 }
+
+/* 스크롤 바 스타일 */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #000; /* 스크롤 색상을 검정(#000)으로 지정 */
+}
