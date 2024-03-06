@@ -3,9 +3,9 @@ body {
 	background-color: #000;
 	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
 	color: #fff;
-	font-family: "Urbanist", sans-serif;
+	font-family: 'Futura Std', sans-serif;
 	font-size: 40px;
-	font-weight: 500;
+	font-weight: 650;
 	font-style: normal;
 	overscroll-behavior: none;
 }
@@ -38,7 +38,7 @@ button {
 	user-select: none;
 	pointer-events: none;
 	z-index: 1; /* TODO Solve this in HTML */
-	font-family: 'Urbanist'; /* 추가 */
+	font-family: 'Futura Std'; /* 추가 */
 }
 
 a, button, input, select {
@@ -62,7 +62,7 @@ a, button, input, select {
 		bottom: 0;
 		left: 0;
 	}
-	font-family: 'Urbanist'; /* @media 쿼리 내에도 폰트 속성 추가 */
+	font-family: 'Futura Std'; /* @media 쿼리 내에도 폰트 속성 추가 */
 }
 
 #overlay {
