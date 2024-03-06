@@ -27,7 +27,7 @@ function init() {
 
             texture.mapping = THREE.EquirectangularReflectionMapping;
 
-            scene.background = texture;
+            //scene.background = texture;
             scene.environment = texture;
 
             render();
