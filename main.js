@@ -1,18 +1,17 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'; // OrbitControls 경로 수정
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'; // GLTFLoader 경로 수정
+import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'; // RGBELoader 경로 수정
 import {
   CSS2DRenderer,
   CSS2DObject,
-} from "three/addons/renderers/CSS2DRenderer.js";
+} from "three/examples/jsm/renderers/CSS2DRenderer.js"; // CSS2DRenderer 경로 수정
 
 let camera, scene, renderer;
 
 init();
 
 function init() {
-
     const container = document.createElement( 'div' );
     document.body.appendChild( container );
 
@@ -33,18 +32,13 @@ function init() {
             render();
 
             // model
-
             const loader = new GLTFLoader().setPath( 'https://designed-realities.github.io/Exhibition/contents/models/' );
-            loader.load( 'Test.glb', async function ( gltf ) {
+            loader.load( 'Test.glb', function ( gltf ) {
                 const model = gltf.scene;
               
                 scene.add(model);
-                renderer.compile(scene, camera);
-
                 render();
-
             } );
-
         } );
 
     renderer = new THREE.WebGLRenderer( { antialias: true } );
@@ -62,24 +56,15 @@ function init() {
     controls.update();
 
     window.addEventListener( 'resize', onWindowResize );
-
 }
 
 function onWindowResize() {
-
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-
     renderer.setSize( window.innerWidth, window.innerHeight );
-
     render();
-
 }
 
-//
-
 function render() {
-
     renderer.render( scene, camera );
-
 }
