@@ -19,7 +19,7 @@ a:hover {
 }
 
 #info {
-    position: absolute;
+    position: left;
     top: 0px;
     width: 100%;
     padding: 10px;
