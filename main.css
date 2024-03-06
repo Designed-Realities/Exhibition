@@ -11,7 +11,7 @@ body {
 }
 
 a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 
@@ -92,9 +92,9 @@ a, button, input, select {
 	}
 
 #notSupported {
-	width: 50%;
+	width: 100%;
 	margin: auto;
-	background-color: #f00;
-	margin-top: 20px;
-	padding: 10px;
+	background-color: #fff;
+	margin-top: auto;
+	padding: auto;
 }
