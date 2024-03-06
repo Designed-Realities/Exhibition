@@ -1,11 +1,11 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'; // OrbitControls 경로 수정
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'; // GLTFLoader 경로 수정
-import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'; // RGBELoader 경로 수정
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'; // 수정된 import 경로
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader';
 import {
   CSS2DRenderer,
   CSS2DObject,
-} from "three/examples/jsm/renderers/CSS2DRenderer.js"; // CSS2DRenderer 경로 수정
+} from "three/examples/jsm/renderers/CSS2DRenderer";
 
 let camera, scene, renderer;
 
