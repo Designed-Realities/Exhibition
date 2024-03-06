@@ -1,71 +1,56 @@
 /* 기본 스타일 */
 body {
-	margin: 0;
-	background-color: #000;
-	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
-	color: #fff;
-	font-family: 'Futura Std', sans-serif;
-	font-size: 40px;
-	font-weight: 650;
-	font-style: normal;
-	overscroll-behavior: none;
+    margin: 0;
+    background-color: #000;
+    cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
+    color: #fff;
+    font-family: 'Futura Std', sans-serif;
+    font-size: 40px;
+    font-weight: 650;
+    font-style: normal;
+    overscroll-behavior: none;
 }
 
 a {
-	color: #fff;
-	text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* 모바일 화면 스타일 */
 @media all and (max-width: 640px) {
-	.lil-gui.root { 
-		right: auto;
-		top: auto;
-		max-height: 50%;
-		max-width: 80%;
-		bottom: 0;
-		left: 0;
-	}
-	font-family: 'Futura Std';
+    .lil-gui.root {
+        right: auto;
+        top: auto;
+        max-height: 50%;
+        max-width: 80%;
+        bottom: 0;
+        left: 0;
+    }
+    font-family: 'Futura Std';
 }
 
 /* 폰트 및 스타일 지정 */
-h1, h2, h3 {
-	font-family: 'Futura Std', sans-serif; /* 원하는 폰트로 변경 */
-	font-weight: 700; /* 원하는 웨이트로 변경 */
-}
-
-h1 {
-	font-size: 48px; /* 원하는 크기로 변경 */
-}
-
-h2 {
-	font-size: 36px; /* 원하는 크기로 변경 */
-}
-
-h3 {
-	font-size: 24px; /* 원하는 크기로 변경 */
-}
-
-a {
-	font-family: 'Futura Std', sans-serif; /* 원하는 폰트로 변경 */
-	font-weight: 500; /* 원하는 웨이트로 변경 */
-	font-size: 18px; /* 원하는 크기로 변경 */
+h1, h2, a {
+    font-family: 'Futura Std', sans-serif; /* 원하는 폰트로 변경 */
+    font-weight: 650; /* 원하는 웨이트로 변경 */
+    font-size: 24px; /* 원하는 크기로 변경 */
+    margin: 0; /* 여백을 동일하게 설정 */
+    background-color: transparent; /* 텍스트 배경을 투명으로 변경 */
 }
 
 a:hover {
-	text-decoration: underline; /* 호버링 이벤트 지정 */
+    text-decoration: underline; /* 호버링 이벤트 지정 */
 }
 
 /* 스크롤 바 스타일 */
 ::-webkit-scrollbar {
-	width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #000; /* 스크롤 색상을 검정(#000)으로 지정 */
+    background-color: #000; /* 스크롤 색상을 검정(#000)으로 지정 */
 }
