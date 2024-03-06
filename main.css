@@ -19,12 +19,12 @@ a:hover {
 }
 
 #info {
-    position: left;
+    position: auto;
     top: 0px;
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
