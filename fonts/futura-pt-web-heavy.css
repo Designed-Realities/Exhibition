@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura PT Web Heavy';
+    src: url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.eot');
+    src: url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.eot?#iefix') format('embedded-opentype'),
+        url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.woff2') format('woff2'),
+        url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.woff') format('woff'),
+        url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.ttf') format('truetype'),
+        url('https://db.onlinewebfonts.com/t/58fce3bc5423dd0d195b612392b65b39.svg#FuturaPTWebHeavy') format('svg');
+}
