@@ -1,47 +1,21 @@
+/* styles.css */
 body {
-	margin: 0;
-	background-color: #000;
-	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
-	color: #fff;
-	font-family: 'Futura Std', sans-serif;
-	font-size: 40px;
-	font-weight: 650;
-	font-style: normal;
-	overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-a {
-	color: #fff;
-	text-decoration: none;
+canvas {
+    width: 100vw;
+    height: 100vh;
 }
 
-a:hover {
-	text-decoration: underline;
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Futura PT Web Heavy', sans-serif;
+    font-size: 50pt;
+    color: #ffffff;
+    z-index: 2;
 }
-
-.Canvas
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
-}
-
-.lil-gui {
-	z-index: 2 !important; /* TODO Solve this in HTML */
-}
-
-.cursor-png {
-	cursor: url("https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png"), auto;
-}
-
-@media all and ( max-width: 640px ) {
-	.lil-gui.root { 
-		right: auto;
-		top: auto;
-		max-height: 50%;
-		max-width: 80%;
-		bottom: 0;
-		left: 0;
-	}
-	font-family: 'Futura Std'; /* @media 쿼리 내에도 폰트 속성 추가 */
