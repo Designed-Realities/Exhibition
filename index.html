@@ -10,8 +10,22 @@
 <body>
     <canvas id="canvas"></canvas>
     <div class="overlay-text">Designed Realities</div>
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://unpkg.com/three@0.162.0/build/three.module.js"
+        "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/"
+    }
+    }
+</script>
 
-    <script src="three.min.js"></script>
+<script type="module">
+
+    import * as THREE from 'three';
+
+    const scene = new THREE.Scene();
+
+</script>
     <script>
         // Your three.js code to display the models and handle canvas here
     </script>
