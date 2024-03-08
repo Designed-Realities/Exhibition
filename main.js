@@ -19,14 +19,14 @@ function init() {
     scene = new THREE.Scene();
 
     new RGBELoader()
-        .setPath('../exhibition/models/')
+        .setPath('../contents/models/')
         .load('studio_small_08_1k.hdr', function (texture) {
             texture.mapping = THREE.EquirectangularReflectionMapping;
             scene.background = texture;
             scene.environment = texture;
             render();
 
-            const loader = new GLTFLoader().setPath('../exhibition/models/');
+            const loader = new GLTFLoader().setPath('../contents/models/');
             loader.load('Test.glb', function (gltf) {
                 const model = gltf.scene;
                 scene.add(model);
