@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background-color: #000;
-	cursor: url(https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png) 5 5, auto;
+	cursor: url(https://designed-realities.github.io/Exhibition/main/cursor.png) 5 5, auto;
 	color: #fff;
 	font-family: 'Futura Std', sans-serif;
 	font-size: 40px;
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .cursor-png {
-	cursor: url("https://raw.githubusercontent.com/Designed-Realities/Exhibition/main/cursor.png"), auto;
+	cursor: url("https://designed-realities.github.io/Exhibition/main/cursor.png"), auto;
 }
 
 @media all and ( max-width: 640px ) {
