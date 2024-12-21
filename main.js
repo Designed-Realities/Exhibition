@@ -35,7 +35,7 @@ function init() {
             // model
 
             const loader = new GLTFLoader().setPath( 'https://designed-realities.github.io/Exhibition/contents/models/' );
-            loader.load( 'Test.glb', async function ( gltf ) {
+            loader.load( 'Test.gltf', async function ( gltf ) {
                 const model = gltf.scene;
               
                 scene.add(model);
